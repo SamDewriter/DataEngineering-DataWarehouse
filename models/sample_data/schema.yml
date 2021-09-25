@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: richards_sample_data
+    description: 'Sample data of richards file found on the website'
+    schema: davis2
+    tables: 
+    - name: sensor_data
+      description: 'Contains traffic data taken by sensors'
+      
+
