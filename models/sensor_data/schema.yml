@@ -1,6 +1,14 @@
 version: 2
 
 sources:
+  - name: first_sensor_data
+    description: 'Sensor data'
+    schema: davis2
+    tables: 
+    - name: sensor_data1
+      description: 'Contains another set of traffic data taken from the provided website in the document'
+
+
   - name: second_sensor_data
     description: 'Sensor data'
     schema: davis2
@@ -14,5 +22,8 @@ sources:
     tables: 
     - name: sensor_data3
       description: 'Contains another set of traffic data taken from the provided website in the document'
-      
 
+  
+
+  
+  
