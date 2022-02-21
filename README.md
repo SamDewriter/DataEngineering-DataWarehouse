@@ -19,5 +19,4 @@ The following tools are very necessary to carry out this project:
 - dbt
 - MySQL/PostgreSL
 - Redash
-
-
+pip install requirements.txt
