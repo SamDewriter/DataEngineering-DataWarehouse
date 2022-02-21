@@ -14,9 +14,8 @@ An ELT tool (dbt) was used to transform the data
 A reporting environment (redash) was used to create a dashboard
 
 ## Requirements
-The following tools are very necessary to carry out this project:
+The following tools are very necessary to carry out this project(they can be found in the requirements.txt file).
 - Apache Airflow
 - dbt
 - MySQL/PostgreSL
 - Redash
-pip install requirements.txt
